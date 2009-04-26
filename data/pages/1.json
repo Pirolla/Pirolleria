@@ -4,36 +4,36 @@
    		"title"	: "Crimson 1",
    		"alt"		: "Crimson 1",
    		"link"	: "http://www.pirolla.com/images/pirolleria/1/",
-   		"thumb"	: "images/crimson1.png"
+   		"src"		: "images/pirolleria/crimson1.png"
    },
    {
    		"title"	: "Crimson 2",
    		"alt"		: "Crimson 2",
    		"link"	: "http://www.pirolla.com/images/pirolleria/2/",
-   		"thumb"	: "images/crimson2.png"
+   		"src"		: "images/pirolleria/crimson2.png"
    },
    {
    		"title"	: "Crimson 3",
    		"alt"		: "Crimson 3",
    		"link"	: "http://www.pirolla.com/images/pirolleria/3/",
-   		"thumb"	: "images/crimson3.png"
+   		"src"		: "images/pirolleria/crimson3.png"
    },
    {
    		"title"	: "Crimson 4",
    		"alt"		: "Crimson 4",
    		"link"	: "http://www.pirolla.com/images/pirolleria/4/",
-   		"thumb"	: "images/crimson4.png"
+   		"src"		: "images/pirolleria/crimson4.png"
    },
    {
    		"title"	: "Crimson 5",
    		"alt"		: "Crimson 5",
    		"link"	: "http://www.pirolla.com/images/pirolleria/5/",
-   		"thumb"	: "images/crimson5.png"
+   		"src"		: "images/pirolleria/crimson5.png"
    },
    {
    		"title"	: "Crimson 6",
    		"alt"		: "Crimson 6",
    		"link"	: "http://www.pirolla.com/images/pirolleria/6/",
-   		"thumb"	: "images/crimson6.png"
+   		"src"		: "images/pirolleria/crimson6.png"
    }]
 })
