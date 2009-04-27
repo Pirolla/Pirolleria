@@ -1,0 +1,39 @@
+({
+   "items": [
+   {
+   		"title"	: "Crimson 1",
+   		"alt"		: "Crimson 1",
+   		"src"		: "images/pirolleria/crimson1.png",
+   		"json"	: "data/groups/1/main.json"
+   },
+   {
+   		"title"	: "Crimson 2",
+   		"alt"		: "Crimson 2",
+   		"src"		: "images/pirolleria/crimson2.png",
+   		"json"	: "data/groups/2/main.json"
+   },
+   {
+   		"title"	: "Crimson 3",
+   		"alt"		: "Crimson 3",
+   		"src"		: "images/pirolleria/crimson3.png",
+   		"json"	: "data/groups/3/main.json"
+   },
+   {
+   		"title"	: "Crimson 4",
+   		"alt"		: "Crimson 4",
+   		"src"		: "images/pirolleria/crimson4.png",
+   		"json"	: "data/groups/4/main.json"
+   },
+   {
+   		"title"	: "Crimson 5",
+   		"alt"		: "Crimson 5",
+   		"src"		: "images/pirolleria/crimson5.png",
+   		"json"	: "data/groups/4/main.json"
+   },
+   {
+   		"title"	: "Crimson 6",
+   		"alt"		: "Crimson 6",
+   		"src"		: "images/pirolleria/crimson6.png",
+   		"json"	: "data/groups/4/main.json"
+   }]
+})

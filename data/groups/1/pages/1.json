@@ -1,0 +1,17 @@
+({
+	"items": [
+   {
+		"thumb": "images/groups/1/1.jpg",
+		"image": "images/groups/1/1_big.jpg",
+		"description": "Short descritption with <a>links</a>.",
+		"author": "Sebastian",
+		"author_id": "1"
+   },
+   {
+		"thumb": "images/groups/1/2.jpg",
+		"image": "images/groups/1/2_big.jpg",
+		"description": "Short description with <a>links</a>.",
+		"author": "Sebastian",
+		"author_id": "1"
+   }]
+})

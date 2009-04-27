@@ -1,0 +1,9 @@
+({
+	"title": "Title",
+	"description": "Descritption with <a>links</a> and <h1>titles</h1>.",
+	"published": "2008-09-24T18:20:03Z",
+	"author": "John Doe",
+	"author_id": "1",
+	"tags": "super power",
+	"itemList": "data/groups/1/pages/1.json"
+})
