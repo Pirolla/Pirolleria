@@ -18,10 +18,13 @@
 			$("#container").pirolleria({
 				onThumb : function(thumb) {
 					
+					// ugly control variable
+					var pass = false;
+					
 					// fade out current thumb if there is one
 					// this pass var really annoys me. have to think an elegant solution
 					if($.fn.pirolleria.current) {
-						var pass = true;
+						pass = true;
 						$.fn.pirolleria.current.not('.active').fadeTo('fast',0.3);
 					}
 					
