@@ -17,12 +17,17 @@
 		jQuery(function($){
 			$("#container").pirolleria({
 				onThumb : function(thumb) {
-
+					
+					// fade out current thumb if there is one
+					if($.fn.pirolleria.current) { $.fn.pirolleria.current.fadeTo('fast',0.3); }
+					
 					// if thumbnail is active, fade all the way.
 					var _fadeTo = thumb.is('.active') ? '1' : '0.3';
 
 					// fade in the thumbnail when finnished loading
-					thumb.css({display:'none',opacity:_fadeTo}).fadeIn(1500);
+					// I really like the fade from none effect, but it is cousing some issues
+					//thumb.css({display:'none',opacity:_fadeTo}).fadeIn(1500);
+					thumb.css({opacity:_fadeTo}).fadeIn(1500);
 
 					// hover effects
 					thumb.hover(
