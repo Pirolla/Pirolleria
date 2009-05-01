@@ -19,7 +19,11 @@
 				onThumb : function(thumb) {
 					
 					// fade out current thumb if there is one
-					if($.fn.pirolleria.current) { $.fn.pirolleria.current.fadeTo('fast',0.3); }
+					// this pass var really annoys me. have to think an elegant solution
+					if($.fn.pirolleria.current) {
+						var pass = true;
+						$.fn.pirolleria.current.not('.active').fadeTo('fast',0.3);
+					}
 					
 					// if thumbnail is active, fade all the way.
 					var _fadeTo = thumb.is('.active') ? '1' : '0.3';
@@ -30,10 +34,13 @@
 					thumb.css({opacity:_fadeTo}).fadeIn(1500);
 
 					// hover effects
-					thumb.hover(
-						function() { thumb.fadeTo('fast',1); },
-						function() { thumb.not('.active').fadeTo('fast',0.3); } // don't fade out if the parent is active
-					)
+					// and the ugly pass var :P
+					if(!pass) {
+						thumb.hover(
+							function() { thumb.fadeTo('fast',1); },
+							function() { thumb.not('.active').fadeTo('fast',0.3); } // don't fade out if the parent is active
+						)
+					}
 				}
 			});
 		});
